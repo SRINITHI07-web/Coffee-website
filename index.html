@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!--custom css link-->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!---page wrapper start-->
+
+    <div class="page-wrapper">
+
+        <!--header start-->
+
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <h1>Brew Haven</h1>
+                </div>
+                <button type="button"  class="menu-btn">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#rest-menu">Menu</a></li>
+                        <li><a href="#product">Products</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--header end-->
+    </div>
+
+    <!--hero srart-->
+
+    <section class="home" id="home">
+        <div class="home-bg"></div>
+        <div class="container">
+            <p>Welcome to Brew Haven</p>
+            <h1>Elevate your coffee experience with rich brews</h1>
+            <div class="home-btn-wrapper">
+                <a href="#rest-menu" class="btn btn-1">
+                    <span>
+                        <span data-text="view manu">View Menu</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <!--hero end-->
+
+    <!--about start-->
+
+    <section class="about" id="about">
+        <div class="main">
+            <img src="img/drink1.jpg" alt="img">
+            <div class="all-text">
+                <h2>Our Story</h2>
+                <p>Welcome to Brew Haven, where coffee isn't just a drink—it’s a passion, a ritual, and a way of life. We believe that every cup tells a story, from the rich aroma that awakens your senses to the last sip that warms your soul.<br>
+                Our journey began with a simple love for coffee and a desire to bring the finest blends to fellow enthusiasts. Whether you're an espresso aficionado, a latte lover, or someone who enjoys discovering unique brews, we are here to elevate your coffee experience.</p>
+
+                <div class="btn">
+                    <button type="button">Learn More..</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about end-->
+
+    <!--stats start-->
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-items">
+                <div class="stats-item">
+                    <span>20+</span>
+                    <p>Years of Experience</p>
+                </div>
+
+                <div class="stats-item">
+                    <span>30+</span>
+                    <p>Special Coffees</p>
+                </div>
+
+                <div class="stats-item">
+                    <span>30+</span>
+                    <p>Passionate servers</p>
+                </div>
+
+                <div class="stats-item">
+                    <span>100+</span>
+                    <p>awards Won</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--stats end-->
+
+    <!--menu stats-->
+
+    <section class="rest-menu" id="rest-menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Our Menu</h2>
+            </div>
+            <div class="tabs rest-menu-tabs">
+                <div class="tabs-list">
+                    <button type="button" class="tabs-btn active" data-target="#coffee">
+                      Coffees
+                    </button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tabs-panel active" id="coffees">
+                      <div class="rest-menu-list">
+                        <div class="rest-menu-item">
+                            <img src="img/coffee img2.jpg" alt="img">
+                            <h4>Cappuccino</h4>
+                            <div class="price">₹50</div>
+                        </div>
+
+                        <div class="rest-menu-item">
+                            <img src="img/coffee img3.jpg" alt="img">
+                            <h4>Americano</h4>
+                            <div class="price">₹80</div>
+                        </div>
+
+                        <div class="rest-menu-item">
+                            <img src="img/esp.jpg" alt="img">
+                            <h4>Espresso</h4>
+                            <div class="price">₹120</div>
+                        </div>
+
+                        <div class="rest-menu-item">
+                            <img src="img/mocha.jpg" alt="img">
+                            <h4>Mocha</h4>
+                            <div class="price">₹150</div>
+                        </div>
+
+                        <div class="rest-menu-item">
+                            <img src="img/latte.jpg" alt="img">
+                            <h4>Latte</h4>
+                            <div class="price">₹100</div>
+                        </div>
+
+                        <div class="rest-menu-item">
+                            <img src="img/flat-white.jpg" alt="img">
+                            <h4>Flat White</h4>
+                            <div class="price">₹60</div>
+                        </div>
+
+                        <div class="rest-menu-item">
+                            <img src="img/cold-brew.jpg" alt="img">
+                            <h4>Cold Brew</h4>
+                            <div class="price">₹70</div>
+                        </div>
+
+                        <div class="rest-menu-item">
+                            <img src="img/black-coffe.jpg" alt="img">
+                            <h4>Black Coffee</h4>
+                            <div class="price">₹40</div>
+                        </div>
+
+                        
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--menu end-->
+
+    <!--product start-->
+
+    <section class="product" id="product">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Our Products</h2>
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <div class="image-box">
+                        <img src="img/cream-machine.jpg" alt="img">
+                    </div>
+                    <div class="info">
+                        <h3>Cream Coffee Machine</h3>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="image-box">
+                        <img src="img/cold-machine.jpg" alt="img">
+                    </div>
+                    <div class="info">
+                        <h3>Cold Coffee Machine</h3>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="image-box">
+                        <img src="img/frixen-coffee-machine.jpg" alt="img">
+                    </div>
+                    <div class="info">
+                        <h3>Frixen Coffee Machine</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--product end-->
+
+    <!--timing start-->
+
+    <section class="timing">
+        <div class="timing-bg"></div>
+        <div class="container">
+            <div class="sec-header">
+                <h2 class="title">Opening Hours</h2>
+            </div>
+            <div class="timing-text">
+                Monday-Sunday : <span>11:00 am - 11:00 pm</span>
+            </div>
+        </div>
+    </section>
+
+    <!--timing end-->
+
+    <!--contact start-->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Contact Us</h2>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>R.S Puram, Coimbatore, Tamil Nadu</p>
+                </div>
+
+                 <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>coffee@gmail.com</p>
+                </div>
+
+                 <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Talk to Us</h3>
+                    <p>+91 967855244</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send us Message</h3>
+                <form class="form">
+                    <div class="form-item">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-item">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-item">
+                        <input type="number" placeholder="Phone" required>
+                    </div>
+                    <div class="form-item">
+                        <textarea placeholder="Message" required></textarea>
+                    </div>
+                    <div class="form-item form-btn">
+                        <button type="submit" class="btn btn-1">
+                            <span>
+                                <span data-text="send message">Send Message</span>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+
+    </section>
+    <!--contact end-->
+
+    <!--footer start-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <h2>Brew Haven</h2>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--footer end-->
+
+
+
+    <!---page wrapper end-->
+
+<!--custom js link-->
+
+<script src="script.js"></script>
+
+
+    
+</body>
+</html>
